@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string s="naman";
+    int start=0,end=s.size()-1;
+    while(start<end)
+    {
+        if(s[start]!=s[end])
+        {
+            cout<<"Not palindrom";
+            return 0;//Herr return 0 is working like a break
+        }
+        start++,end--;
+    }
+    cout<<"is palindrom";
+}
