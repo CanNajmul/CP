@@ -21,3 +21,8 @@ for (int i = 0; i < n; i++) {
             cout << current << endl;
         }
     }
+// reverse korar niyom
+reverse(s.begin(),s.end*());
+
+//kono kicur moddhe rakhte hoile 
+a=string(s.begin(),s.end());
