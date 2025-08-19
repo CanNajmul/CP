@@ -15,3 +15,17 @@ int main()
     }
     cout<<"is palindrom";
 }
+///2nd 
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string s,a;
+    cin>>s;
+    a= string(s.rbegin(), s.rend());
+    int b=s.compare(a);
+    if(b==0)
+    cout<<"YES";
+    else
+    cout<<"NO";
+}
