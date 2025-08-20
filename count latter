@@ -22,3 +22,26 @@ int main()
     p=0;
        }
 }
+???
+////2nd option
+#include <bits/stdc++.h>
+#include<algorithm>
+using namespace std;
+ 
+int main()
+{
+   string a;
+   getline(cin,a);
+   sort(a.begin(),a.end());
+   long int b=0;
+   for (int i=0;i<a.size();i++){
+        if(a[i]==a[i+1])b++;
+        else{
+            cout<<a[i]<<" : "<<b+1<<endl;
+            b=0;
+        }
+ 
+   }
+ 
+    return 0;
+}
