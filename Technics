@@ -1,0 +1,2 @@
+??full string can covert in lower??
+transform(text.begin(), text.end(), text.begin(), ::tolower);
